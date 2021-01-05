@@ -95,7 +95,7 @@
             <string notr="true">color: rgb(200, 200, 200);</string>
            </property>
            <property name="text">
-            <string>Human Part Segmentation</string>
+            <string>CV Final Project</string>
            </property>
            <property name="alignment">
             <set>Qt::AlignCenter</set>

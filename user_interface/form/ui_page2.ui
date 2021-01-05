@@ -305,7 +305,7 @@ QPushButton:hover {
 }</string>
            </property>
            <property name="text">
-            <string>Start segmentation program</string>
+            <string>Start segment</string>
            </property>
           </widget>
          </item>

@@ -15,7 +15,7 @@ os.environ['QT_QPA_PLATFORM_PLUGIN_PATH'] = plugin_path
 class MyWidget(QtWidgets.QWidget):
     def __init__(self, parent=None):
         super(MyWidget, self).__init__(parent)
-        self.setWindowTitle('human part segmentation')
+        self.setWindowTitle('CV Final Project')
         self.setAcceptDrops(True)
 
     def set_child(self, child):
