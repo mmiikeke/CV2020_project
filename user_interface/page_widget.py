@@ -140,7 +140,7 @@ class page2(QtCore.QObject):
 
     @QtCore.Slot()
     def select_input(self):
-        file = str(QtWidgets.QFileDialog.getOpenFileName(None, "Select Image", "./", "Image File (*.jpg *.png)")[0])
+        file = str(QtWidgets.QFileDialog.getOpenFileName(None, "Select Image", "./", "Image File (*.jpg *.jpeg *.png *.jiff)")[0])
         self.get_image(file)
 
 class page3(QtCore.QObject):
@@ -183,7 +183,7 @@ class page3(QtCore.QObject):
 
     @QtCore.Slot()
     def select_input(self):
-        file = str(QtWidgets.QFileDialog.getOpenFileName(None, "Select Image", "./", "Image File (*.jpg *.png)")[0])
+        file = str(QtWidgets.QFileDialog.getOpenFileName(None, "Select Image", "./", "Image File (*.jpg *.jpeg *.png *.jiff)")[0])
         self.get_image(file)
 
 class page4(QtCore.QObject):
